@@ -8,6 +8,15 @@
 %define device_pretty Pixel XL
 
 %define installable_zip 1
+%define droid_target_aarch64 1
+%define straggler_files \
+/bugreports\
+/cache\
+/d\
+/dsp\
+/sdcard\
+/verity_key\
+%{nil}
 
 %include rpm/dhd/droid-hal-device.inc
 
